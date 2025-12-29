@@ -5,7 +5,7 @@ from datetime import datetime
 
 # CONFIG
 TICKER = "DCAM.PA"
-THRESHOLD = -2.0  # percento
+THRESHOLD = 100.0  # percento
 
 PUSHOVER_USER = os.environ["PUSHOVER_USER"]
 PUSHOVER_TOKEN = os.environ["PUSHOVER_TOKEN"]
